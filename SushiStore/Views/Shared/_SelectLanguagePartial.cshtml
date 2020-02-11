@@ -14,7 +14,7 @@
 <form asp-controller="Home" asp-action="UpdateLanguage"
       asp-route-returnUrl="@Context.Request.Path"
       method="post" class="navbar-nav">
-    Language: <select name="culture" onchange="this.form.submit();"
-                      asp-for="@requestCulture.RequestCulture.UICulture.Name"
-                      asp-items="cultureItems"></select>
+    <select name="culture" onchange="this.form.submit();"
+            asp-for="@requestCulture.RequestCulture.UICulture.Name"
+            asp-items="cultureItems"></select>
 </form>
