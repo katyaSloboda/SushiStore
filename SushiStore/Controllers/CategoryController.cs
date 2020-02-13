@@ -12,5 +12,30 @@ namespace SushiStore.Controllers
         {
             return View();
         }
+
+        public IActionResult Rolls()
+        {
+            return View("Index");
+        }
+
+        public IActionResult Sushi()
+        {
+            return View("Index");
+        }
+
+        public IActionResult Sets()
+        {
+            return View("Index");
+        }
+
+        public IActionResult Snacks()
+        {
+            return View("Index");
+        }
+
+        public IActionResult Drinks()
+        {
+            return View("Index");
+        }
     }
 }

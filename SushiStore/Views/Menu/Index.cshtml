@@ -2,7 +2,30 @@
     ViewData["Title"] = "Menu";
 }
 
-<div class="text-center">
-    <h1 class="display-2">@Localizer["Header"]</h1>
-    <h3 class="display-2">@Localizer["Message"]</h3>
-</div>
+<section>
+    <div class="direction">
+        <a href="/">Главная</a> <span>/</span> <a>Меню</a>
+    </div>
+    <div>
+        <h2>Меню</h2>
+    </div>
+    <div>
+        <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Category" asp-action="Rolls">Роллы</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Category" asp-action="Sushi">Суши</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Category" asp-action="Sets">Сеты</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Category" asp-action="Snacks">Закуски</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Category" asp-action="Drinks">Напитки</a>
+            </li>
+        </ul>
+    </div>
+</section>

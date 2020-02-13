@@ -1,4 +1,5 @@
-﻿"use strict";
+﻿/// <binding BeforeBuild='clean, less, min' />
+"use strict";
 
 var gulp = require("gulp"),
   less = require("gulp-less"),

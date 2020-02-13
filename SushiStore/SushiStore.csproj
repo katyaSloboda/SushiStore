@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\ForCustomers\Index.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Menu\Index.cshtml" />
     <None Include="wwwroot\less\styles.less" />
   </ItemGroup>
 

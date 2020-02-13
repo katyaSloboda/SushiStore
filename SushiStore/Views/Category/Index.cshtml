@@ -2,7 +2,53 @@
     ViewData["Title"] = "Category";
 }
 
-<div class="text-center">
-    <h1 class="display-2">@Localizer["Header"]</h1>
-    <h3 class="display-2">@Localizer["Message"]</h3>
-</div>
+<section>
+    <div>
+        <a href="/">Главная</a> <span>/</span> <a href="/menu/">Меню</a> <span>/</span> <a>Роллы</a>
+    </div>
+    <div>
+        <h2>Роллы</h2>
+        <div>
+            <span>Сортировка по</span>
+            <select name="sort" onchange="">
+                <option data-sort="price" data-path="0">По возрастанию цены</option>
+                <option data-sort="price" data-path="1">По убыванию цены</option>
+                <option data-sort="name" data-path="0">По названию</option>
+                <option data-sort="weight" data-path="0">По возрастанию веса</option>
+                <option data-sort="weight" data-path="1">По убыванию веса</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="roll-types-swiper">
+        <div data-tab="tab1">Все</div>
+        <div data-tab="tab2">Классические</div>
+        <div data-tab="tab3">Маки</div>
+        <div data-tab="tab4">Драконы</div>
+        <div data-tab="tab5">Запеченные</div>
+        <div data-tab="tab6">Феликсы</div>
+        <div data-tab="tab7">Сладкие</div>
+    </div>
+
+    <div class="variations">
+        <div data-filter="sharp">
+            <input type="checkbox" value=".filter-sharp">
+            <span>Острые</span>
+        </div>
+        <div data-filter="vegan">
+            <input type="checkbox" value=".filter-vegan">
+            <span>Вегетарианские</span>
+        </div>
+    </div>
+
+    <div>
+        <div>Филадельфия с лососем</div>
+        <div>300 г - Лосось, Нори, Огурец, Рис, Сыр сливочный</div>
+        <div>Калорий - 237 ккал</div>
+        <div>Углеводы - 32 г</div>
+        <div>Белки - 10 г</div>
+        <div>Жиры - 7 г</div>
+        <div>В корзину</div>
+        <div>240 грн.</div>
+    </div>
+</section>
