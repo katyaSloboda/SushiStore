@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 a.navbar-brand {
   white-space: normal;
   text-align: center;
@@ -57,7 +57,7 @@ html {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 .ctgs-container {
   position: absolute;

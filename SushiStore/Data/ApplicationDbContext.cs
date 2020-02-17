@@ -12,6 +12,9 @@ namespace SushiStore.Data
         public DbSet<Culture> Cultures { get; set; }
         public DbSet<Resource> Resources { get; set; }
 
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
